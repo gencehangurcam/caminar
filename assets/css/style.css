@@ -1,6 +1,69 @@
-html, body{
-    margin: 15%;
-    background-color: blue;
-    height: 100%;
+body{
+    margin: 5%;
+}
+
+.container{
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    position: fixed;
+}
+
+*{
+    margin: 0;
+}
+
+.sec1{
+    text-align: center;
+    color: white;
+}
+
+.sec1 img{
     width: 100%;
+}
+
+.sec2{
+    text-align: center;
+    background-color: #fff;
+
+}
+
+.sec3{
+    text-align: center;
+    background-color: wheat;
+}
+
+.container-sec4{
+    margin: 5%;
+    background-image: url(./);
+}
+
+.sec4 .text{
+    text-align: center;
+    background-color: rgb(58, 55, 55);
+    color: white;
+}
+
+.sec4 .img{
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.sec4 img{
+    width: 50%;
+}
+
+.sec5 div img{
+    width: 100%;
+}
+
+.sec5-1{
+    display: flex;
+}
+
+.sec5-txt{
+    background-color: white;
+}
+
+footer{
+    text-align: center;
 }
